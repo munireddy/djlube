@@ -22,3 +22,4 @@ EXPOSE 3333
 #you need to copy manage.py file
 ENTRYPOINT  ["python", "manage.py", "runserver", "0.0.0.0:3333"]
 #Comomment added for commit on 02/19
+#Added a comment to check git pull behaviour
