@@ -28,3 +28,5 @@ RUN pip install psycopg2
 EXPOSE 3333
 #This is the command exectuted from /home/app/my0903 directory when the 'kubectl run' is executed.
 ENTRYPOINT  ["python", "manage.py", "runserver", "0.0.0.0:3333"]
+
+#Added a new line
